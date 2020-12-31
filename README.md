@@ -1,4 +1,6 @@
-# to-object-path [![NPM version](https://badge.fury.io/js/to-object-path.svg)](http://badge.fury.io/js/to-object-path)
+# to-object-path-js [![NPM version](https://badge.fury.io/js/to-object-path-js.svg)](http://badge.fury.io/js/to-object-path-js)
+
+#### This is a fork of the [package](https://github.com/jonschlinkert/repo-utils) created by [Jon Schlinkert](https://github.com/jonschlinkert). The original package has not been updated for several years and has multiple security vulnerabilities.  Creating this fork was the only way to address them. Read this [issue](https://github.com/jonschlinkert/to-object-path/issues/3#issuecomment-752862800) for more information.
 
 > Create an object path from a list or array of strings.
 
@@ -7,13 +9,13 @@
 Install with [npm](https://www.npmjs.com/)
 
 ```sh
-$ npm i to-object-path --save
+$ npm i to-object-path-js --save
 ```
 
 ## Usage
 
 ```js
-var toPath = require('to-object-path');
+var toPath = require('to-object-path-js');
 
 toPath('foo', 'bar', 'baz');
 toPath('foo', ['bar', 'baz']);
@@ -23,7 +25,7 @@ toPath('foo', ['bar', 'baz']);
 Also supports passing an arguments object (without having to slice args):
 
 ```js
-function foo()
+function foo() {
   return toPath(arguments);
 }
 
@@ -52,9 +54,13 @@ $ npm i -d && npm test
 
 ## Contributing
 
-Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/jonschlinkert/to-object-path/issues/new).
+Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/OronNadiv/to-object-path/issues/new).
 
 ## Author
+
+**Oron Nadiv**
+
++ [github/OronNadiv](https://github.com/OronNadiv)
 
 **Jon Schlinkert**
 
